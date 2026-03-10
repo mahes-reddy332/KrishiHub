@@ -35,6 +35,11 @@ An intelligent, multilingual platform that empowers Indian farmers with AI-drive
 └── Iot/               # IoT sensor dashboard
 ```
 
+
+<img width="1890" height="1183" alt="Screenshot 2026-03-10 231202" src="https://github.com/user-attachments/assets/72824bff-5947-4057-bf13-06c36e0912c2" />
+<img width="427" height="732" alt="Screenshot 2026-03-10 194734" src="https://github.com/user-attachments/assets/0ee8b939-8743-43b4-b8c2-28c0d8483e91" />
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -52,7 +57,8 @@ npm install
 
 Create a `.env` file:
 
-```env
+```env![Uploading Screenshot 2026-03-10 194734.png…]()
+
 MONGO_URI=your_mongodb_uri
 GROQ_API_KEY=your_groq_api_key
 PORT=10000
@@ -124,15 +130,8 @@ node app.js
 | `GROQ_API_KEY` | Groq API key for LLM |
 | `PORT` | Backend server port (default: 10000) |
 
-## Contact
 
-For queries or collaboration:
-- arunrathaur92.6@gmail.com
-- indreshkverma2004@gmail.com
-- sharmajayesh4241@gmail.com
-- jkhushbu970@gmail.com
 
 ## License
 
 MIT
-
