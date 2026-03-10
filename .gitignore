@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML model (too large for git — download separately)
+AI-ML/trained_model.keras
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Lock files (root level stray)
+/package-lock.json
+
+# Training output images
+AI-ML/output*.png
+AI-ML/precisionRecall.png
+
+# Test images
+AI-ML/test/
+
+# Binary lockfiles
+bun.lockb
